@@ -1,0 +1,19 @@
+（1）工厂模式的定义：
+定义一个用于创建对象的接口，让子类决定实例化哪一个类，Factory Method使得一个类的实例化延迟到子类。
+（2）应用场景
+    ①当你不知道该使用对象的确切类型的时候；
+    ②当你希望为库或框架提供其内部组件的方法。
+（3）主要优点
+    ①将具体产品和创建者解耦；
+    ②符合单一职责原则；
+    ③符合开闭原则。
+
+（4）源码中的应用：
+    1）简单工厂模式：
+        Calendar.getInstance();
+        java.text.NumberFormat.getInstance();
+        java.util.ResourceBundle.getInstance();
+
+    (2)工厂方法模式：
+        java.net.URLStreamHandlerFactory
+        java.xml.bind.JAXBContext.createMarshaller
