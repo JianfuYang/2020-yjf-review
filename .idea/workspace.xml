@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0b2b23f-043a-4eed-9cb0-e595bdc41602" name="Default Changelist" comment="建造者模式">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/exam/pdd/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/exam/pdd/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/feature/array2list/Array2ListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/feature/array2list/List2ArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myReview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myReview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/奇安信/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/奇安信/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/科大讯飞/Exam1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/科大讯飞/Exam2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/科大讯飞/Exam2QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/科大讯飞/Exam3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/科大讯飞/Exam4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/联发科/MTK2Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/algorithm/exam/联发科/MTKExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CountDownLatchTest$TaskPortion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CountDownLatchTest$WaitingTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CountDownLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CyclicBarrierTest$Horse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CyclicBarrierTest$HorseRace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/CyclicBarrierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/lock1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myReview/feature/lock2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/奇安信/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/qianxin/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/奇安信/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/qianxin/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/科大讯飞/Exam1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/kedaxunfei/Exam1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/科大讯飞/Exam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/kedaxunfei/Exam2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/科大讯飞/Exam2QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/kedaxunfei/Exam2QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/科大讯飞/Exam3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/kedaxunfei/Exam3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/科大讯飞/Exam4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/kedaxunfei/Exam4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/联发科/MTK2Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/lianfake/MTK2Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/exam/联发科/MTKExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/exam/lianfake/MTKExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/builder/~$建造者模式.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/builder/~WRL1923.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/prototype/~$原型模式.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature/lockorcommunicate/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature/lockorcommunicate/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature/lockorcommunicate/DeadLockTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\研_项目资料\6.Work\MyWork\myReview\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\SIDEA\maven\repository" />
+        <option name="mavenHome" value="E:/SIDEA/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\SIDEA\maven\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fUohC4It9jE7gahRarsAWmnvbg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/SIDEA/maven/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pdd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\研_项目资料\6.Work\MyWork\myReview\src\designpatterns\builder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.List2ArrayMain">
+    <configuration name="Array2ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="feature.array2list.Array2ListMain" />
+      <module name="myReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="feature.array2list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.proxy.CglibDynamicProxy" />
+      <module name="myReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.proxy.JdkDynamicProxy" />
+      <module name="myReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List2ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="feature.array2list.List2ArrayMain" />
+      <module name="myReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="feature.array2list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.proxy.StaticProxyTest" />
+      <module name="myReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.List2ArrayMain" />
+        <item itemvalue="Application.Array2ListMain" />
+        <item itemvalue="Application.CglibDynamicProxy" />
+        <item itemvalue="Application.JdkDynamicProxy" />
+        <item itemvalue="Application.StaticProxyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0b2b23f-043a-4eed-9cb0-e595bdc41602" name="Default Changelist" comment="" />
+      <created>1596282148242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596282148242</updated>
+      <workItem from="1596282151102" duration="5171000" />
+      <workItem from="1596345402897" duration="5630000" />
+      <workItem from="1596365897564" duration="6661000" />
+      <workItem from="1596423140345" duration="3409000" />
+      <workItem from="1596435564022" duration="67000" />
+      <workItem from="1596442912845" duration="2002000" />
+      <workItem from="1596456882357" duration="936000" />
+      <workItem from="1596458805704" duration="726000" />
+      <workItem from="1596462992718" duration="1206000" />
+      <workItem from="1596509213447" duration="4452000" />
+      <workItem from="1596517525285" duration="7939000" />
+      <workItem from="1596598032778" duration="1167000" />
+      <workItem from="1596611834469" duration="4439000" />
+    </task>
+    <task id="LOCAL-00001" summary="建造者模式">
+      <created>1596286761386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596286761386</updated>
+    </task>
+    <task id="LOCAL-00002" summary="原型模式">
+      <created>1596517588681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596517588681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="代理模式">
+      <created>1596529675669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596529675669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="建造者模式">
+      <created>1596617378781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596617378781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="原型模式" />
+    <MESSAGE value="代理模式" />
+    <MESSAGE value="建造者模式" />
+    <MESSAGE value="qianxin，kedaxunfei，mtk exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="qianxin，kedaxunfei，mtk exam" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2281" y="74" key="#Notifications" timestamp="1596286777988">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2281" y="74" key="#Notifications/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286777988" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1596510151495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596510151495" />
+    <state x="622" y="105" width="533" height="614" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596444332378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="622" y="105" width="533" height="614" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596444332378" />
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596544945792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596544945792" />
+    <state x="363" y="10" key="CommitChangelistDialog2" timestamp="1596617434249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="363" y="10" key="CommitChangelistDialog2/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617434249" />
+    <state x="2283" y="10" key="CommitChangelistDialog2/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596529675016" />
+    <state x="549" y="157" key="FileChooserDialogImpl" timestamp="1596545150525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="157" key="FileChooserDialogImpl/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596545150525" />
+    <state x="2469" y="157" key="FileChooserDialogImpl/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286483903" />
+    <state x="2558" y="308" width="273" height="207" key="Github.ShareDialog" timestamp="1596286534183">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2558" y="308" width="273" height="207" key="Github.ShareDialog/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286534183" />
+    <state x="2452" y="118" key="Github.UntrackedFilesDialog" timestamp="1596286457317">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2452" y="118" key="Github.UntrackedFilesDialog/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286457317" />
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1596617447204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="159" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596601797615" />
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617447204" />
+    <state width="1493" height="82" key="GridCell.Tab.0.bottom/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596528825685" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1596617447203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="159" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596601797615" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617447203" />
+    <state width="1493" height="82" key="GridCell.Tab.0.center/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596528825685" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1596617447203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="159" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596601797615" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617447203" />
+    <state width="1493" height="82" key="GridCell.Tab.0.left/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596528825685" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1596617447203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="159" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596601797615" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617447203" />
+    <state width="1493" height="82" key="GridCell.Tab.0.right/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596528825685" />
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom" timestamp="1596373416558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596371176804" />
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596373416558" />
+    <state width="1493" height="369" key="GridCell.Tab.1.center" timestamp="1596373416558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596371176804" />
+    <state width="1493" height="369" key="GridCell.Tab.1.center/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596373416558" />
+    <state width="1493" height="369" key="GridCell.Tab.1.left" timestamp="1596373416558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596371176804" />
+    <state width="1493" height="369" key="GridCell.Tab.1.left/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596373416558" />
+    <state width="1493" height="369" key="GridCell.Tab.1.right" timestamp="1596373416558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596371176804" />
+    <state width="1493" height="369" key="GridCell.Tab.1.right/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596373416558" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1596545155456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596435299979" />
+    <state x="272" y="0" key="SettingsEditor/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596545155456" />
+    <state x="2192" y="58" key="SettingsEditor/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286316416" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1596617474032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596617474032" />
+    <state x="2281" y="149" key="Vcs.Push.Dialog.v2/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596529680369" />
+    <state x="349" y="289" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596544944215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="289" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596544944215" />
+    <state x="2377" y="215" key="git4idea.merge.GitPullDialog" timestamp="1596286791178">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2377" y="215" key="git4idea.merge.GitPullDialog/1920.0.1536.824/0.0.1536.824@1920.0.1536.824" timestamp="1596286791178" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596616900359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1596616900359" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/exam/pdd/Main3.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
