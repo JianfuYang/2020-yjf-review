@@ -8,9 +8,10 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package algorithm.exam.联发科;
+package algorithm.exam.lianfake;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -25,65 +26,24 @@ import java.util.*;
 
 
 
-public class MTK2Exam {
+public class MTKExam {
 
-    public static void main1(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        Integer n = Integer.valueOf(string);
 
-        int treeNum = sc.nextInt();
-        int fNum = sc.nextInt();
-        int strength = sc.nextInt();
-
-
-        int[] nums = new int[treeNum];
-        for(int i=0;i<treeNum;i++){
-            nums[i]=sc.nextInt();
+        String str = sc.nextLine();
+        String[] strings = str.split(" ");
+        int[] nums = new int[strings.length];
+        for(int i=0;i<strings.length;i++){
+            nums[i]=Integer.valueOf(strings[i]);
         }
 
-
-        Queue<Integer> minHeap = new PriorityQueue<>();
-        Queue<Integer> queue = new PriorityQueue<>(10,(i1, i2)->Integer.compare(i2,i1));
-
-        for(int num:nums){
-            minHeap.add(num);
-        }
-
-        for(int i=1;i<=fNum;i++){
-            int min = minHeap.poll();
-            minHeap.add(min+strength);
-        }
-        System.out.println(minHeap.peek());
-
-
-
-
+        System.out.println(countMinNums(nums));
         /*int maxArea = findMaxArea(nums);
         System.out.println(maxArea);
 */
-    }
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-        Integer[] nums = new Integer[n];
-
-        for(int i=0;i<n;i++){
-            nums[i]= sc.nextInt();
-        }
-
-        Arrays.sort(nums);
-
-        for(int i=0;i<n-1;i++){
-            if(nums[i].equals(nums[i+1])){
-                nums[i]=0;
-                nums[i+1]=nums[i+1]*2;
-            }
-            Arrays.sort(nums);
-        }
-
-
     }
 
 

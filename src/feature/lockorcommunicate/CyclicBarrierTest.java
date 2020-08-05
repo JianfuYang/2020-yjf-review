@@ -1,6 +1,6 @@
-package feature; /**
+package feature.lockorcommunicate; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: feature.CyclicBarrierTest
+ * FileName: feature.lockorcommunicate.CyclicBarrierTest
  * Author:   Jianf
  * Date:     2020/7/11 11:23
  * Description: CyclicBarrier测试类

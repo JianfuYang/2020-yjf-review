@@ -1,6 +1,6 @@
-package feature; /**
+package feature.lockorcommunicate; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: feature.CountDownLatchTest
+ * FileName: feature.lockorcommunicate.CountDownLatchTest
  * Author:   Jianf
  * Date:     2020/7/11 11:04
  * Description: CountDownLatch类测试

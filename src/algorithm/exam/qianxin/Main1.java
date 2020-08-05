@@ -1,4 +1,4 @@
-package algorithm.exam.奇安信; /**
+package algorithm.exam.qianxin; /**
  * Copyright (C), 2018-2020, GDUT_YJF
  * FileName: Main
  * Author:   Jianf

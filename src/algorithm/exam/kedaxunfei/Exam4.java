@@ -1,4 +1,4 @@
-package algorithm.exam.科大讯飞; /**
+package algorithm.exam.kedaxunfei; /**
  * Copyright (C), 2018-2020, GDUT_YJF
  * FileName: Main
  * Author:   Jianf

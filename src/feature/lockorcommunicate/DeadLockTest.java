@@ -1,4 +1,4 @@
-package feature; /**
+package feature.lockorcommunicate; /**
  * Copyright (C), 2018-2020, GDUT_YJF
  * FileName: DeadLockTest
  * Author:   Jianf
@@ -53,8 +53,8 @@ class lock2 implements Runnable {
 }
 
 class DeadLock {
-    public static String l1 = "feature.lock1"; // 资源1
-    public static String l2 = "feature.lock2"; // 资源2
+    public static String l1 = "feature.lockorcommunicate.lock1"; // 资源1
+    public static String l2 = "feature.lockorcommunicate.lock2"; // 资源2
 
     public static void main(String[] args) {
         Thread lo1 = new Thread(new lock1());
