@@ -73,7 +73,7 @@ public class Array2ListMain {
         return list;
     }
 
-    /**使用CollectionUtils将数组转换成List,可以使用基本数据类型。
+    /**使用CollectionUtils将数组转换成List,也可以使用基本数据类型。
      *
      * @param arrays
      * @return

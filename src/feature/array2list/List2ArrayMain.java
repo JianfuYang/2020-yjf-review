@@ -30,6 +30,13 @@ public class List2ArrayMain {
         List<Integer> mannual2List = mannual2List(intArrays);
         System.out.println("手动将数组转换成list："+mannual2List);
 
+        int[] mannualList2Array = mannualList2Array(mannual2List);
+        System.out.println("手动将list转换成数组："+mannualList2Array);
+        for(int i:mannualList2Array){
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
         Integer[] integers = list2Array(mannual2List);
         System.out.println("1.toArray默认方法将array转换成list：");
         for(int i:integers){
@@ -60,6 +67,20 @@ public class List2ArrayMain {
 
     }
 
+    /**
+     * 手动创建数组，将list中的元素逐个添加到int[]数组中
+     * @param list
+     * @return
+     */
+    public static int[] mannualList2Array(List<Integer> list){
+        int[] res = new int[list.size()];
+        int i=0;
+        for(int num:list){
+            res[i++]=num;
+        }
+        return res;
+    }
+
     //直接使用List的toArray方法，该类型参数传入引用类型
     public static Integer[] list2Array(List<Integer> list){
         Integer[] integers = list.toArray(new Integer[0]);//传入参数，表示强转
@@ -68,7 +89,12 @@ public class List2ArrayMain {
 
     //使用stream将list转换成数组
     public static int[] useStreamlist2Array(List<Integer> list){
-        int[] arrays = list.stream().mapToInt(Integer::intValue).toArray();
+        //下面三行代码都可以完成这个操作
+//        int[] arrays = list.stream().mapToInt(Integer::intValue).toArray();
+        //使用lambda表达式
+//        int[] arrays = list.stream().mapToInt((Integer i)->i).toArray();
+        //使用lambda表达式；先使用filter过滤
+        int[] arrays = list.stream().filter(integer -> integer!=null).mapToInt(i->i).toArray();
         return arrays;
     }
 
