@@ -1,0 +1,25 @@
+1、模式定义：
+    将一个类的接口转换成客户希望的另一个接口。Adapter模式使得原本由于接口不兼容不能在一起工作的那些类可以一起工作。
+
+2、适配器模式在编程中主要有两种模式：对象适配器模式(使用组合实现)，类适配器模式(使用继承实现,会破坏接口，暴露不需要的接口，容易造成误解).
+
+
+3、Spring源码中的应用
+(1)Spring中的应用监听器ApplicationListener(旧接口)和GenericApplicationListener(新接口)之间的适配使用，使用的是对象适配器模式;
+(2)java.util包中的Arrays类的asList方法：
+@SafeVarargs
+    @SuppressWarnings("varargs")
+    public static <T> List<T> asList(T... a) {
+        return new ArrayList<>(a);
+    }
+
+private final E[] a;
+ArrayList(E[] array) {
+            a = Objects.requireNonNull(array);
+        }
+
+        通过直接new一个对象实例来完成数组的转换
+
+4、应用场景：
+    1）当你希望使用某些现有类，但器接口与你的其他代码不兼容时，请使用适配器类；
+    2）当你希望重用几个现有的子类，这些子类缺少一些不能添加到超类中的公共功能时，可以使用该模式。
