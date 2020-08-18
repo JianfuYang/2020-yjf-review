@@ -1,6 +1,6 @@
 package algorithm.exam.jingdong; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: algorithm.exam.jingdong.algorithm.exam.wangyileihuo.algorithm.exam.tiger.Main
+ * FileName: algorithm.exam.jingdong.algorithm.exam.wangyileihuo.algorithm.exam.tiger.algorithm.exam.beike.Main
  * Author:   Jianf
  * Date:     2020/8/6 19:13
  * Description:
