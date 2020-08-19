@@ -1,0 +1,7 @@
+1、模式定义：
+    定义一个操作的算法骨架，而将一些步骤延迟到子类中。TemplateMethod使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+
+
+2、典型应用
+    1）模板方法在Servlet API中的应用示例：javax.servlet.http.HttpServlet类，service()方法定义了一套算法骨架，具体的实现通过子类实现，doPost，doGet...来完成；
+    2）模板方法在Spring 中的应用：org.springframework.web.servlet.mvc.AbstractController类，handleRequest()定义了算法的骨架，用户可以实现handleRequestInternal()方法来实现算法的实现。
