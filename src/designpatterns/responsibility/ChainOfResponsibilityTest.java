@@ -23,7 +23,7 @@ public class ChainOfResponsibilityTest {
     public static void main(String[] args) {
         //测试示例
         //构造请求
-        Request request = new Request.RequestBuilder().frequentOk(true).loggedOn(true).build();
+        Request request = new Request.RequestBuilder().frequentOk(false).loggedOn(true).build();
         //构造责任链
         RequestFrequentHandler requestFrequentHandler = new RequestFrequentHandler(new LoggingHandler(null));
         //测试责任链处理流程、结果
