@@ -76,7 +76,7 @@ public class Main {
                 }
             }
             for(int k=0;k<trips.length;k++){
-                if(trips[k][2]==i){//在i站点上车
+                if(trips[k][2]==i){//在i站点下车
                     dp[i] -= trips[k][0];
                 }
             }
