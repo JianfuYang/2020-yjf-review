@@ -29,6 +29,8 @@ public class JdkDynamicProxy {
         //打印原始类型
         System.out.println(target.getClass());
 
+        //设置生成动态代理类时的文件
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles",true);
         //给目标对象，创建代理对象
         IDUserDao proxy = (IDUserDao)new ProxyFactory(target).getProxyInstance();
         //内存中生成的动态代理对象
