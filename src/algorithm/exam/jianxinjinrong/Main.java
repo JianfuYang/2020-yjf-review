@@ -1,6 +1,6 @@
 /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: Main
+ * FileName: algorithm.exam.didi0913.Main
  * Author:   Jianf
  * Date:     2020/9/12 19:36
  * Description: 去掉字符串

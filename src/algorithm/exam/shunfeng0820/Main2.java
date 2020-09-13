@@ -1,6 +1,6 @@
 /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: algorithm.exam.xiaomi0908.Main2
+ * FileName: algorithm.exam.xiaomi0908.algorithm.exam.didi0913.Main2
  * Author:   Jianf
  * Date:     2020/8/21 10:33
  * Description: 赏金猎人问题
