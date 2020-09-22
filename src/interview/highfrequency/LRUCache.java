@@ -1,6 +1,6 @@
-package interview; /**
+package interview.highfrequency; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: interview.LRUCache
+ * FileName: interview.highfrequency.LRUCache
  * Author:   Jianf
  * Date:     2020/7/18 22:31
  * Description: LRU缓存机制算法
@@ -113,8 +113,8 @@ class LRUCache {
 }
 
 /**
- * Your interview.LRUCache object will be instantiated and called as such:
- * interview.LRUCache obj = new interview.LRUCache(capacity);
+ * Your interview.highfrequency.LRUCache object will be instantiated and called as such:
+ * interview.highfrequency.LRUCache obj = new interview.highfrequency.LRUCache(capacity);
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */

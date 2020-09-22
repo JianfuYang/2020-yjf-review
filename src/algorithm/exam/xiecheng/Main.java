@@ -1,6 +1,6 @@
 /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: algorithm.exam.xiaomi0908.algorithm.exam.didi0913.Main
+ * FileName: algorithm.exam.xiaomi0908.algorithm.exam.didi0913.interview.bigo.Main
  * Author:   Jianf
  * Date:     2020/9/8 19:31
  * Description: 敏感单词

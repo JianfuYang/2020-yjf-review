@@ -1,6 +1,6 @@
 package algorithm.exam.wangyileihuo; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: algorithm.exam.wangyileihuo.algorithm.exam.tiger.algorithm.exam.beike.algorithm.exam.xiaomi0908.algorithm.exam.didi0913.Main
+ * FileName: algorithm.exam.wangyileihuo.algorithm.exam.tiger.algorithm.exam.beike.algorithm.exam.xiaomi0908.algorithm.exam.didi0913.interview.bigo.Main
  * Author:   Jianf
  * Date:     2020/8/8 14:57
  * Description: 网易笔试

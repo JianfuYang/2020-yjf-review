@@ -1,6 +1,6 @@
 package algorithm.exam.beike; /**
  * Copyright (C), 2018-2020, GDUT_YJF
- * FileName: algorithm.exam.beike.algorithm.exam.xiaomi0908.algorithm.exam.didi0913.Main
+ * FileName: algorithm.exam.beike.algorithm.exam.xiaomi0908.algorithm.exam.didi0913.interview.bigo.Main
  * Author:   Jianf
  * Date:     2020/8/11 19:01
  * Description: 贝壳笔试

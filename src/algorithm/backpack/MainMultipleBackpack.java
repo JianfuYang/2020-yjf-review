@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * 多重背包问题：
+ * 多重背包问题：（有限）
  * 有 N 种物品和一个容量是 V 的背包。
  *
  * 第 i 种物品最多有 si 件，每件体积是 vi，价值是 wi。
