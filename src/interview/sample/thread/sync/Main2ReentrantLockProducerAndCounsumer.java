@@ -31,6 +31,7 @@ public class Main2ReentrantLockProducerAndCounsumer<T> {
     final private int Max = 10;
     private int count = 0;
     private Lock lock = new ReentrantLock();
+    //使用ReentrantLock的多路通知功能
     private Condition producer = lock.newCondition();
     private Condition consumer = lock.newCondition();
 
